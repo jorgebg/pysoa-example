@@ -34,7 +34,7 @@ Start `redis-cli monitor` before running `client.py`.
 
 If you want to validate the request and the response, follow these steps:
 
-- Install Conformity: `pipenv install conformity`
+- Install Conformity: `pip3 install conformity`
 - Update `server.py`:
 
 ```python
