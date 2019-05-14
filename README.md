@@ -27,7 +27,11 @@ python3 client.py
 ## Under the hood
 
 
-Start `redis-cli monitor` before running `client.py`.
+Start `redis-cli monitor` before running the server and the client to see the exchanged messages.
+
+They both use `RPUSH` for sending the messages and `BLPOP` for reading them:
+
+![BLPOP/RPUSH example](blpop-rpush.gif)
 
 
 ## Conformity
