@@ -37,7 +37,7 @@ If you want to validate the request and the response, follow these steps:
 - Install Conformity: `pipenv install conformity`
 - Update `server.py`:
 
-```
+```python
 from conformity import fields
 
 # ...
